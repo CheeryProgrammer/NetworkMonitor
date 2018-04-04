@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2015
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetworkMonitor", "NetworkMonitor.csproj", "{317BE2D5-40F8-41E2-B32C-D031B3D00CD0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SNMP", "..\SNMP\SNMP.csproj", "{061CC8FF-20ED-4F26-BB84-EFDE939F0C3D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{317BE2D5-40F8-41E2-B32C-D031B3D00CD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{317BE2D5-40F8-41E2-B32C-D031B3D00CD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{317BE2D5-40F8-41E2-B32C-D031B3D00CD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{317BE2D5-40F8-41E2-B32C-D031B3D00CD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{061CC8FF-20ED-4F26-BB84-EFDE939F0C3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{061CC8FF-20ED-4F26-BB84-EFDE939F0C3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{061CC8FF-20ED-4F26-BB84-EFDE939F0C3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{061CC8FF-20ED-4F26-BB84-EFDE939F0C3D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C7B7E928-4C66-4B57-8AEE-559F2CCF9715}
+	EndGlobalSection
+EndGlobal
