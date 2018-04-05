@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetworkMonitor", "NetworkMo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SNMP", "..\SNMP\SNMP.csproj", "{061CC8FF-20ED-4F26-BB84-EFDE939F0C3D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetworkMonitorTests", "..\NetworkMonitorTests\NetworkMonitorTests.csproj", "{F4F9D2FB-0275-4B2E-B11A-AF20F1213E6D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{061CC8FF-20ED-4F26-BB84-EFDE939F0C3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{061CC8FF-20ED-4F26-BB84-EFDE939F0C3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{061CC8FF-20ED-4F26-BB84-EFDE939F0C3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4F9D2FB-0275-4B2E-B11A-AF20F1213E6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4F9D2FB-0275-4B2E-B11A-AF20F1213E6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4F9D2FB-0275-4B2E-B11A-AF20F1213E6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4F9D2FB-0275-4B2E-B11A-AF20F1213E6D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
